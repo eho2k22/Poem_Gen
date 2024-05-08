@@ -1,0 +1,50 @@
+body {
+    font-family: 'Indie Flower', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+    background-image: url('https://msfpfmwdawonueqaevru.supabase.co/storage/v1/object/public/img/mom.png'); /* Update path to where you upload the image */
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: white;
+    border-radius: 8px;
+}
+
+input[type="text"], button {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+input[type="text"] {
+    margin-top: 20px;
+    width: 80%;
+    border: 2px solid #ccc;
+}
+
+button {
+    margin-top: 10px;
+    background-color: #5c67f2;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4a54e1;
+}
+
+#poemCard {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e8e8e8;
+    border-radius: 8px;
+    font-family: 'Indie Flower', cursive; /* Apply Indie Flower to the poem card */
+}
